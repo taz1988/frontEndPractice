@@ -1,0 +1,16 @@
+{
+  "name": "my-greate-project-with-grunt",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-processhtml": "^0.4.2",
+    "grunt-sass": "^3.0.2",
+    "node-normalize-scss": "^8.0.0",
+    "node-sass": "^4.12.0"
+  }
+}

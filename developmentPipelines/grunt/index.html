@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dummy project to practice development pipelines</title>
+    <!-- build:css main.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/card.css">
+    <!-- /build -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- build:js main.js -->
+    <script src="assets/js/card.js"></script>
+    <script src="assets/js/column.js"></script>
+    <!-- /build -->
+  </head>
+  <body>
+    <section role="content">
+      <ul class="column">
+        <h1>Backlog</h1>
+        <li class="card">This story should be done in the next sprint!</li>
+      </ul>
+      <ul class="column">
+        <h1>In progress</h1>
+      </ul>
+      <ul class="column">
+        <h1>Done</h1>
+      </ul>
+      <div id="create-card" title="Create new card">
+      <label for="name">Card text</label>
+      <input type="text" name="card-text" id="card-text" value="" class="text ui-widget-content ui-corner-all" />
+      <br />
+      <a class="ui-button ui-widget ui-corner-all" id="add-card-button" href="#">Add card</a>
+      </div>
+    </section>
+  </body>
+</html>
